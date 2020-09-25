@@ -1,0 +1,199 @@
+body {
+    color: azure;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    font-size: 16.5px;
+    font-family: Helvetica;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    padding: 1em;
+}
+
+nav a {
+    padding: 1em;
+}
+
+nav h1, ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: rgb(2, 177, 201);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+main > section {
+    min-height: 700px;
+    padding: 1em;
+}
+
+#introduction > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 2em;
+}
+/* ........................................................................ */
+#soccer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 16.4px;
+    align-items: center;
+}
+
+#soccer > #one {
+    flex: 1.5;
+}
+
+#soccer > div > img {
+    width: 100%;
+}
+
+#soccer > #two {
+    margin-top: 140px;
+    margin-left: 1em;
+    flex: 1;
+}
+/* ......................................................................... */
+#cricket {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#cricket > div > div >img {
+    width: 100%;
+} 
+/* ......................................................................... */
+#basketball {
+    display: flex;
+    justify-content: space-between;
+}
+
+#basketball > #one {
+    flex: 1;
+    align-self: center;
+}
+
+#basketball > div > img {
+    width: 100%; 
+}
+
+#basketball > #two {
+    margin-top: 40px;
+    margin-left: 1em;
+    flex: 1;
+    align-self: center;
+}
+/* ............................................................................. */
+#field_hockey {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#field_hockey > div > img {
+    width: 100%;
+}
+
+#field_hockey > #one {
+    flex: 1;
+}
+
+#field_hockey > #two {
+    margin-top: 40px;
+    margin-right: 1em;
+    flex: 1.5;
+}
+/* .................................................................................. */
+#tennis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tennis > div > img {
+    width: 100%;
+}
+
+#tennis > #one {
+    flex: 1;
+}
+
+#tennis > #two {
+    margin-top: 50px;
+    margin-left: 1em;
+    flex: 1;
+}
+/* .................................................................................. */
+footer {
+    height: 300px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    font-size: 14px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 1em;
+}
+
+form label {
+    display: flex;
+}
+
+label span {
+    flex: 1;
+}
+
+label input {
+    flex: 1.8;
+}
+
+textarea {
+    flex: 1.8;
+    height: 50px;
+    width: 200px;
+}
+
+label {
+text-align: right;
+}
+
+button {
+    width: 40px;
+    align-self: flex-end;
+}
